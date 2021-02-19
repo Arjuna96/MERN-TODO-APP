@@ -23,7 +23,7 @@ export default function NavComponent() {
   return (
     <>
       <div>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="primary" variant="dark" expand="xl">
           <Navbar.Brand href="/home">ToDo App </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -32,7 +32,7 @@ export default function NavComponent() {
             </Nav>
             <Nav className="ml-auto">
               <Nav.Link href="#home">{currentUser}</Nav.Link>
-              <Button variant="outline-primary" onClick={logout}>
+              <Button variant="success" onClick={logout}>
                 Log Out
               </Button>
             </Nav>

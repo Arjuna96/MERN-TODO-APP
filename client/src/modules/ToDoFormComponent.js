@@ -45,7 +45,7 @@ export default function ToDoFormComponent({ addTodo }) {
         <Col xs={6}>
           <Form onSubmit={handleSubmit}>
             <Form.Group>
-              <Form.Label>
+              <Form.Label className="text-center">
                 <b>Add Todo</b>
               </Form.Label>
               <Form.Control
